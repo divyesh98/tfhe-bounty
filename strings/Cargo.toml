@@ -1,0 +1,12 @@
+[package]
+name = "strings"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tfhe={version="*", features=["integer","shortint","x86_64-unix", "boolean"]}
+rayon="*"
+serde="*"
+serde_json="*"
