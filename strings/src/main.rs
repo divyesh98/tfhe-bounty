@@ -222,11 +222,11 @@ impl FheString {
         }
     }
 
-    fn eq_ignore_case(&self, cipher: &FheString, sk: &ServerKey) 
-        -> &Self{
+    // fn eq_ignore_case(&self, cipher: &FheString, sk: &ServerKey) 
+    //     -> &Self{
         
-        let 
-    }
+    //     let 
+    // }
 }
 
 fn main(){
